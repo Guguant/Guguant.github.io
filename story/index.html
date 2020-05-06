@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 4.2.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext">
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"guguant.github.io","root":"/","scheme":"Pisces","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
+  </script>
+
+  <meta name="description" content="我常感慨时间过得太快，流逝的时间，带走了我的一部分记忆（与朋友们同甘共苦的记忆，一段难忘的对话，一个礼物，一首中二的歌，一颗不怎么好看的小花…） 在此，我决定记录一些生活琐事，爬山，徒步，发呆。一方面，我想通过文字，表达一个普通人对世界的观察；另有一方面，告诫自己，不断学习，继续呼吸。">
+<meta property="og:type" content="website">
+<meta property="og:title" content="story">
+<meta property="og:url" content="https://guguant.github.io/story/index.html">
+<meta property="og:site_name" content="孙一鸣的个人博客">
+<meta property="og:description" content="我常感慨时间过得太快，流逝的时间，带走了我的一部分记忆（与朋友们同甘共苦的记忆，一段难忘的对话，一个礼物，一首中二的歌，一颗不怎么好看的小花…） 在此，我决定记录一些生活琐事，爬山，徒步，发呆。一方面，我想通过文字，表达一个普通人对世界的观察；另有一方面，告诫自己，不断学习，继续呼吸。">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2020-05-06T21:00:16.000Z">
+<meta property="article:modified_time" content="2020-05-06T21:08:54.381Z">
+<meta property="article:author" content="Sun Yiming">
+<meta property="article:tag" content="climbing | hiking | programming">
+<meta name="twitter:card" content="summary">
+
+<link rel="canonical" href="https://guguant.github.io/story/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : false,
+    lang   : 'en'
+  };
+</script>
+
+  <title>story | 孙一鸣的个人博客
+</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+<link rel="alternate" href="/atom.xml" title="孙一鸣的个人博客" type="application/atom+xml">
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="Toggle navigation bar">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">孙一鸣的个人博客</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+      <p class="site-subtitle" itemprop="description">飞鸟与鱼</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>Home</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>About</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>Tags<span class="badge">10</span></a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>Categories<span class="badge">3</span></a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archives<span class="badge">14</span></a>
+
+  </li>
+        <li class="menu-item menu-item-story">
+
+    <a href="/story/" rel="section"><i class="fa fa-rocket fa-fw"></i>story</a>
+
+  </li>
+  </ul>
+</nav>
+
+
+
+
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+  
+  
+
+          <div class="content page posts-expand">
+            
+
+    
+    
+    
+    <div class="post-block" lang="en">
+      <header class="post-header">
+
+<h1 class="post-title" itemprop="name headline">story
+</h1>
+
+<div class="post-meta">
+  
+
+</div>
+
+</header>
+
+      
+      
+      
+      <div class="post-body">
+          <p>我常感慨时间过得太快，流逝的时间，带走了我的一部分记忆（与朋友们同甘共苦的记忆，一段难忘的对话，一个礼物，一首中二的歌，一颗不怎么好看的小花…） 在此，我决定记录一些生活琐事，爬山，徒步，发呆。一方面，我想通过文字，表达一个普通人对世界的观察；另有一方面，告诫自己，不断学习，继续呼吸。</p>
+<a id="more"></a>
+
+<h1 id="2020"><a href="#2020" class="headerlink" title="2020"></a>2020</h1><ul>
+<li>2020-05-06 最近，在做一个大的决定</li>
+<li>2020-05-06 三门海，梦开始的地方</li>
+<li>2020-05-04 临海江南大峡谷，，，超级清凉</li>
+<li>2020-05-03 温岭长屿峒天</li>
+<li>2020-05-02 台州tour</li>
+<li>2020-04-28 一天八杯水以上，吃2棵蔬菜，一个水果，12点之前倒头就睡，控制饮食，跑3~5公里，学10个英文单词。</li>
+<li>2020-04-27 少年想~ 小庞同学离职了。另，NEO培训的小伙伴 94/108,，好难过~</li>
+<li>2020-04-25 再一次来南京，逛南研所；看电影《乔乔的异想世界》；爬紫金山（坐了索道，在半山腰）；先锋书店正常营业，在先锋咖啡店吃了披萨和意面，30一杯的茶好贵；和璐姐聊天真的好开心，目标更加明确些，一步一步地往上爬（这是谁的歌嘛？）；晚上找守利吃饭，聊到工作，吐槽许多。潇洒地在城市徒步，南京的记忆多了十二分。</li>
+<li>2020-04-24 我的表达能力好弱</li>
+<li>2020-04-23 做你喜欢的事情 享受事物本身</li>
+<li>2020-04-21 雨后 也是午后</li>
+<li>2020-04-13 to be a hiking PRO.</li>
+<li>2020-04-09 在Coldplay的音乐里 什么都不要想</li>
+<li>2020-04-08 一个人要怎样度过他/她的一生</li>
+<li>2020-03-26 If you can’t go outside, go inside.</li>
+<li>2020-03-19 音乐<ul>
+<li>Taylor Swift 的音乐超好听</li>
+<li>蛋堡新專輯《家常音樂》，好酷</li>
+</ul>
+</li>
+<li>2020-03-13 保持对知识的渴望</li>
+<li>2020-03-09 You never know what’s comming for you.</li>
+<li>2020-03-08 但愿我和你 是一只唱不完的歌 要爱就爱个够吧</li>
+<li>2020-03-06<ul>
+<li>Lisp and Go, start from scratch.</li>
+<li>噗 我拿时间换了什么？</li>
+<li>你是我的梦想</li>
+<li>糟糕，又陷入回忆里</li>
+</ul>
+</li>
+<li>2020-03-05 University<ul>
+<li>TUM</li>
+<li>KIT</li>
+<li>UST</li>
+<li>Netherlands</li>
+</ul>
+</li>
+<li>2020-03-04 再忙，也要跟你講句咖啡話☕ – 来自蛋堡</li>
+<li>2020-03-01 今天是三月的第一天，小雨，微风，街边的梅花快要凋零了；<br>邀请一位朋友来住的地方晚餐（带了水果。下周，每天吃水果，，，水果，，，水果）</li>
+<li>2020-02-23 周末，阳光很好。爬山，浙大没开学，植物园后山不可以上山，太子湾的山好矮。</li>
+<li>2020-02-22 eat cake with 珊珊</li>
+<li>2020-02-19 一切关于事物的负面表达，其实都可以有更温柔的方式</li>
+<li>2020-02-18 玩了半小时滑板，动作没忘，嘻嘻</li>
+<li>2020-02-12 我爱南京</li>
+<li>2020-01-29 笛福在1722年发表了《A Journal of the Plague Year》。“这个世界会好吗？” 脑袋里回想起南京某位歌手的歌词。</li>
+<li>2020-01-20 <em>Ne sympathisez pas avec vous-même</em></li>
+<li>2020-01-19 不要同情自己 – <em>Norwegian Wood</em></li>
+<li>2020-01-13 午睡时，做了一个小梦。小时候，在家里，和爷爷奶奶住一个房间。农历新年，他们在商量着，年夜饭做些什么菜，和亲人分享呢？</li>
+<li>2020-01-09 <a href="https://byte.coffee/52" target="_blank" rel="noopener">https://byte.coffee/52</a></li>
+<li>2020-01-06 新年新年</li>
+</ul>
+<h1 id="2019"><a href="#2019" class="headerlink" title="2019"></a>2019</h1><ul>
+<li>2019-12-24 收到的第一份礼物是在高中，一条黑白相间的围巾。谢谢wmh小姐，silent night, 真心地祝愿你也幸福无虞。</li>
+<li>2019-12-23 北京 冬至 wmh小姐</li>
+<li>2019-12-16 婷婷說，友情是同甘共苦。</li>
+<li>2019-12-15 「世界上最治愈的东西都是咸的，泪水、汗水和海水。」</li>
+<li>2019-12-14 cheer 20 漫漫长夜 HANGZHOU，最后一首歌是 After 17，关于吉他与感动的记忆。</li>
+<li>2019-12-11 <a href="http://yuezhu.org/out-of-the-blue/" target="_blank" rel="noopener">out of the blue</a></li>
+</ul>
+<blockquote>
+<p>每年十二月份都会想起大一的平安夜从新街口走回宿舍的自己，跟美好相距甚远，但永远值得回忆</p>
+</blockquote>
+<ul>
+<li>2019-12-09 爲什麼人生充滿了別離 ~ 是麼 Free-D</li>
+<li>2019-11-20 早睡早起 太重要了 &amp; Kernel plans are going on … </li>
+<li>2019-11-09 婷婷去北京了，我好难过…</li>
+<li>2019-11-07 草东没有派对</li>
+<li>2019-11-06 早睡早起</li>
+<li>2019-11-05 我好烦！</li>
+<li>2019-10-24 苏州</li>
+<li>2019-10-19 china linux kernel in ZJU.</li>
+<li>2019-10-14 生活总有残酷的一面。</li>
+<li>2019-10-10 在我們還年輕的時候，讓我們快樂吧。</li>
+</ul>
+<blockquote>
+<p>音樂能表達那些我們無法言說切不會永遠沉默的一切。 – 維克多·雨果</p>
+</blockquote>
+<ul>
+<li>2019-09-27 心中的歌谣</li>
+<li>2019-09-24 人为什么要长大？为什么呢？</li>
+<li>2019-09-14 新裤子 在南京音乐节 演唱了 「没有理想的人不伤心」</li>
+</ul>
+<blockquote>
+<p>我不想在失败孤独中死去 我不想生活在地下里</p>
+</blockquote>
+<ul>
+<li>2019-09-10 Miss. Li post a new signature <em>背负着恐惧寻找的终点难道是末路吗？</em></li>
+<li>2019-09-06 为什么要<em>长成一棵咖啡树</em></li>
+<li>2019-09-01 昨晚突然晕倒了。我想我是太累了。以后，尽量每天12点前睡觉；跑步一定要坚持跑啊，周末去爬山。</li>
+<li>2019-08-30 hero</li>
+<li>2019-08-26 open up your heart and let the sunshine in.</li>
+<li>2019-08-24 噗 婷婷和我是在 2019年5月20日，say hello 的</li>
+<li>2019-08-22 我一无所有，还有什么所畏惧</li>
+<li>2019-08-21 每天都有人离开熟悉的地方，工作只是一份工作，不必太过留念；全家卖咖啡的小姑娘，她的名字叫Wang Fangfang. 明天是她在这里工作的最后一天，也是她到杭州的一整年。</li>
+<li>2019-08-21 我也在迷茫时期 @li</li>
+<li>2019-08-20 报名2019南京马拉松</li>
+<li>2019-08-19 画画</li>
+<li>2019-08-13 心之所向，必能抵达 Miss. Li</li>
+<li>2019-05-09 Coding是一件非常开心的事情</li>
+<li>2019-05-07 Try our luck. Code is so hard.</li>
+<li>2019-04-25 感性智慧的训练，两人“对画”，寻找平衡感</li>
+<li>2019-04-17 和许志华老师聊天</li>
+<li>2019-03-30 Aliya shared a moment “感谢相伴:pig:”</li>
+<li>2019-03-28 Tanya与Lu1合作了一首新歌 《Just say so》</li>
+<li>2019-03-26 喜欢跑步</li>
+<li>2019-02-15 <strong>新的心跳</strong> 是GEM邓紫棋的歌。一段经历结束之后，结果不令人满意。大哭一场，开始新的心跳。</li>
+</ul>
+<h1 id="2018"><a href="#2018" class="headerlink" title="2018"></a>2018</h1><ul>
+<li>2018-09-25 你能给自己什么？你能给她什么？</li>
+<li>2018-09-07 Is it fun?</li>
+<li>2018-26-08 没有故事吗？去创造啊。</li>
+<li><strong>一往无前 无尽光芒 :rose:</strong></li>
+<li>2018-07-16 上班上班。</li>
+<li>2018-06-15 一条狗的使命。</li>
+<li>2018-06-21 世界滑板日。<br>人只要努力前往少抱怨生活和工作就一定会越来越令人羡慕。</li>
+<li>2018-06-02 emmmm，关心关心你的人，Keep一颗热忱的心。</li>
+<li><strong>救赎之旅 :four_leaf_clover: 大学四年的故事，漫长短暂美好。</strong></li>
+<li>2018-05-30 谢谢你，霞。救赎之旅到此结束。期待，上海的相遇。你若盛开，清风自来。</li>
+<li>2018-05-29 其实，以我现在的能力，也不能够拥有一段美好的LOVE STORY。</li>
+<li>2018-05-28 还未开始。</li>
+<li>2018-05-27 这辈子都不可能忘记她了。</li>
+<li>2018-05-26 小奇，被一个人影响，以至于杀死了过去的自己。一个人对一个人的改变真的非常大。</li>
+<li>2018-05-25 我真幸运。</li>
+<li>2018-05-24 她的名字非常可爱。</li>
+<li>2018-05-23 在图书馆，每天都可以见到那个女孩。</li>
+<li>2018-05-22 听不懂陈绮贞。After 18.</li>
+<li>2018-05-21 我喜欢你。:kissing_heart:</li>
+<li>2018-05-20 小雨点儿告诉我，“做一件事做到底；喜欢一个人勇敢的表达”。</li>
+<li>2018-05-19 喜欢一个姑娘，而不去表达内心的感受，蠢蛋 :egg:</li>
+<li>2018-05-18 我不知道。</li>
+<li>2018-05-17 关注过去，关注现在，令我痛苦不堪。</li>
+<li>2018-05-16 下定决心，我的操作系统之旅。</li>
+<li>2018-05-15 lil peep音乐评论下，down down down.</li>
+<li>2018-05-14 forget what i have done.</li>
+<li>2018-05-13 QVQ 正在播的一首歌，《有没有人告诉你》。</li>
+<li>2018-05-12 熠、阮(?)、海、璋、鹏，一起喝了酒，醉了。</li>
+<li>2018-05-11 终于可以学习理论知识了，把之前不牢靠的基础知识打扎实。说什么也不能，错过这一次机会，cluster :leaves:.</li>
+<li>2018-05-10 佳上班了，苗实习了，我游手好闲了。<br>告诉自己，糟糕的事情远比自己想象的距离自己近，近在咫尺。</li>
+<li>2018-05-09 早餐时间，与一女孩发生无言的冲突，还未搞清楚原委，急急忙忙退却。逃避是可耻的。<br>星期三的午后，我第一次感到宛若新生。<br>财富，自由，世界之大，美好的瞬间，空气中的柳絮，希望的种子，走在阳光下的长裙女孩，独立思想，穿越世界的旅行，潮水般涌来…</li>
+<li>2018-05-08 我们不可能复刻他人的人生的。不可能吗？答案是可能的。若是执意向往颓丧的人生，也是轻轻松松可以实现的吧。<br>当一个男生开始认真学习的时候，他是悲伤地，快乐地，执着地。身上有一股劲，嘿，你瞧，头发都炸了。</li>
+<li>2018-05-07 也许吧，轻度抑郁症。该死的 melancholia。<br>有时候，我倒是非常羡慕苗，一直在自己选择的道路上勇敢前行，脚踏实地，并快乐着。<br>新的心跳​ :heartbeat:</li>
+<li>2018-05-06 我知道的 佳 收拾行囊 离开杭州 是不会告知我的</li>
+<li>2018-05-05 这一周，迷上《斗破苍穹》，决定不再看了。这段时间太颓丧，如果这样下去，我会废的:定力不够:。</li>
+<li>2018-05-04 给付老师装软件。发觉我越来越喜欢在背后说人坏话了，真是小人啊。</li>
+<li>2018-05-03 在南京军区杭州疗养院体检。这儿真美，适合养老。</li>
+<li>2018-05-02 在427窝了一天。放空方知，一切有意义，一切无意义。</li>
+<li>2018-05-01 donw, down, down, Maybe melancholia :love_letter:.</li>
+<li>2018-04-30 图书馆左侧玫瑰绽放。</li>
+<li>2018-04-29 彭老师回信 我的心情很复杂。</li>
+<li>2018-04-28 佳 就要离开杭州 回台州啦。</li>
+<li>2018-04-27 晚上有约会。</li>
+<li>2018-04-26 图书馆十一楼，清风徐来，淡淡的花香。</li>
+<li>2018-04-25 心情差到爆，差到爆。自由啊，为什么离我这么远，这么远。</li>
+<li>2018-04-24 连续下了几天雨了。paper定了截止日期。</li>
+<li>2018-04-23 论意志力的强大。</li>
+<li>2018-04-22 颓丧午后。</li>
+<li>2018-04-21 今天听了摇滚现场，东北田径场。</li>
+<li>2018-04-20 滑板是一项非常非常非常非常HAPPY的运动。</li>
+<li>2018-04-19 世界充满了战争。</li>
+<li>2018-04-18 公寓文化节-拔河比赛，21楼的兄弟们，告败:(. 放飞了理想的气球，祝愿cluster, be happy girl. 考研成功。</li>
+<li>2018-04-17 427阳台仙人掌开出新的枝叶。向来我的父亲虽然沉默，但总把最好的给我。我的母亲虽然不了解我，但也是默默付出啊。我这个不孝子。</li>
+<li>2018-04-16 新的一天。</li>
+<li>2018-04-15 买了新滑板鞋dekline。</li>
+<li>2018-04-14 编程是来解决实际问题的，解决问题优先。</li>
+<li>2018-04-13 早餐，鸡蛋饼，黑米粥，茶叶蛋。午后，算法思维非常重要。在计算机上进行批处理操作，优先考虑使用脚本语言的方式解决。能偷一会儿懒就偷一会儿懒​ :blush:</li>
+<li>2018-04-12 下过雨了。下楼打热水，看了眼窗外，地上湿漉漉。</li>
+<li>2018-04-11 今日非常充实。没有了许多贪恋。笔记本电脑静静地摆在书桌上，你不知道的，它正在运算着超大的数据量。计算机非常强大。</li>
+<li>2018-04-10 不要随便拒绝，更不要随便承诺。与陌生人交流是一件非常快乐的事情，同朋友聊天更加。</li>
+<li>2018-04-09 最近常出口成脏，要重新看待自己啦。阴郁的心情是不合时宜表达方式的源头，不知不觉的语言表达，正是心理状态的映射。恩，糟糕的心情给陌生人带来了不悦。中午在图书馆4  楼学习，看到桌子斜对角的同学在看高等数学课本，我呢，还没翻开过一页。毕业设计没有完成，必须集中精力了。</li>
+<li>2018-03-27 过去已逝，未来可期。Now is the best.</li>
+<li>2018-03-21 弗弗人生。「弗」是HDU滑板地点的代名词。</li>
+<li>2018-03-17 I am coming back.</li>
+<li>2018-02-25 麦焦</li>
+</ul>
+<h1 id="2017"><a href="#2017" class="headerlink" title="2017"></a>2017</h1><ul>
+<li><p>2017-12-15 what’s up?<br>音乐迷幻大脑。<br>自己喜欢的工作和不喜欢的工作，界限是什么？做自己喜欢的工作，付出10倍、20倍的精力，仍觉得很快乐。</p>
+</li>
+<li><p>2017.12.08 跟风与凑热闹从来不缺配角。</p>
+</li>
+<li><p>2017-12-06 认真写作。严谨，专业，真实。</p>
+</li>
+<li><p>2017-11-20 玩滑板的时候，我忘记了烦恼与爱。</p>
+</li>
+<li><p>2017-11-17 世界上有趣的东西很多，局限了视野与思维，也就看不到这些了。</p>
+</li>
+<li><p>2017-11-13 1. 算法; 2. side project; 3. smile; 4. plan : 一副好听的耳机</p>
+</li>
+<li><p>2017-10-14 许多个新的心跳–<del>-V—-^-</del></p>
+</li>
+<li><p>2017-10-05 开始练习滑板 离开地面地内心活动充满了惊喜 加油 :P</p>
+</li>
+<li><p>2017-09-25 工作中的程序设计师<br>8月底听了英伟达深度学习工程师的分享会<br>一个工程师问：“哪里可以找到深度学习的图形数据库？”<br>我很奇怪啊，为什么在网络上细心搜索就能得到满意答案的问题？<br>为什么会引起工程师的疑惑呢？<br>在企业工作后，还有余力学习新的知识，这种精神倒是可敬的。</p>
+</li>
+<li><p>2017-09-25 丢失了记忆。时期的重要节点被我忘了，记忆力啊。</p>
+</li>
+<li><p>2017-09-09 网易有道笔试题挂了，失落。树，二叉树，数据结构，掌握得糟糕。 &gt;””泪目””&lt;</p>
+</li>
+<li><p>2017-08-29 工作颂歌。时间好少好少，要学得好多好多</p>
+</li>
+<li><p>2017-08-04 事实而非的概念总是令人费解。一遍遍的重复是为了什么呢？我知道的，是不敢面对，是逃避，没有勇气的样子啊，一个懦夫的诞生。the winter is coming.</p>
+</li>
+<li><p>2017-07-19</p>
+<ol>
+<li>为人一生不能懒</li>
+<li>慎独，幸福</li>
+<li>做就做好，脚踏实地</li>
+</ol>
+</li>
+<li><p>2017-07-19 我想到了一个点子。没什么了不起，没什么大不了，请叫我第一名。</p>
+</li>
+<li><p>2017-07-17<br>不是闭门造车的自以为是。自我批判，自我否定，自认为无一事成。<br>何不随遇而安，随机应变，也率性了许多。<br>更多时候，是比较后带来的不安。可是，我们为什么要比较呢，是因为希望脱离自卑，胆怯，与久久散去的可怜感.</p>
+</li>
+<li><p>2017-07-16 为什么我纠结于选择，而不是脚踏实地的做事。<br>最近我在做什么啊 ！！！</p>
+</li>
+<li><p>2017-07-10 互联网时代创造了无数机会，毁掉了美好的梦想.然而梦想都是矫揉造作，何必花费时间在自我陶醉的事情上呢？人生如此短暂，好好生活自然妙不可言。</p>
+</li>
+<li><p>2017-07-07 守本心 —— menghan</p>
+</li>
+<li><p>2017-06-25 时间的歌 – 红色骨头 困。困。困。ヾ(ｏ･ω･)ﾉ</p>
+</li>
+<li><p>2017-06-08 Moon Well today.最近很迷茫，需要一点点阳光。</p>
+</li>
+<li><p>2017-05-27 wo xihuan xieshi. I love write poem and songs. like it.</p>
+</li>
+<li><p>2017-05-12 08年的今天汶川大地震。17年的今天，即将毕业。</p>
+</li>
+<li><p>2017-04-05 Plan:<br>To create a platform  about the building environment, software, library, whatever language, or OS (Unix, Red, Windows and so on…)<br>Anyone can find the solution about its program issues.</p>
+</li>
+<li><p>2017-03-18<br>没有什么能够阻挡，我对自由的向往<br>生活不止眼前的苟且，还有诗和远方的田野 —— 许巍</p>
+<p>阅读，交谈，与她<br>真心的话，倍加珍惜，永远藏在你的秘密花园</p>
+<p>你中意的姑娘，她也，稀罕你<br>幸福啊，开心的，伴随着你，像春天的野花</p>
+</li>
+<li><p>2017-03-17 To study Sqlite.</p>
+</li>
+<li><p>2017-02-22 我的，生日 happy birthday to you, boy. :)</p>
+</li>
+<li><p>2017-02-08 左手程序，右手诗 – dd</p>
+</li>
+<li><p>2017-01-06 困 ~~</p>
+</li>
+<li><p>2017-01-05 平时不听课 期末很难过</p>
+</li>
+<li><p>2017-01-01 元旦，2017</p>
+</li>
+</ul>
+<h1 id="2016"><a href="#2016" class="headerlink" title="2016"></a>2016</h1><ul>
+<li>2016-12-23 奇怪的陌生人。只消见过一面，生出一切的好感。<br>不见，再见，是见。<br>嘻嘻，nice to meet you.</li>
+<li>2016-12-21 雨季</li>
+<li>2016-12-20 下雨，没跑步。《从你的全世界路过》，高中时代就出书了哟，孤陋寡闻了。</li>
+<li>2016-12-19 偷了个懒~</li>
+<li>2016-12-18 计划2017年1月23号回家，想到又是一年，家庭已物是人非。2016年，经历了家庭的变故，我在想什么。<br>或，唯有在自己选择的路上，走得长远些，是对爷爷的怀念了。<br>静下心来，笃定一点点，从容一些些。</li>
+<li>2016-12-17 多交流总是好的。</li>
+<li>2016-12-16 日复一日的坚持一件事情，是热爱的表现。尝试，每天奔跑，将出现在我的生命里。</li>
+<li>2016-12-15 如是我闻，须菩提。   </li>
+<li>2016-12-07 野蛮生长</li>
+<li>2016-11-28 中文社区做知识分享的人很多 做出优秀作品的不到1%。难于沉淀啊。是你。</li>
+<li>2016-11-28 魔鬼与天使，有时同一个</li>
+<li>2016-11-23 朋友间的情谊，嗨皮。</li>
+<li>2016-11-22 困</li>
+<li>2016-11-22 《丝路花雨》，优雅的艺术作品总是打动人心。世界啊，在各处的角落，藏着美好，藏着动人的艺术。呵，没走过河山，怎知她的容颜，姿态。</li>
+<li>2016-11-14 糟糕极了。知道结果后，反而觉得自己的行为是多么的愚蠢。[what is love?]<br>呼呼呼，困觉。。。</li>
+<li>2016-10-31 自欺欺人。我是 unlucky dog.</li>
+<li>2016-10-30 好好编程，热爱生活，热爱 亲爱的人。<br>hope life is being kink to me.</li>
+<li>2016-10-30 梦想有那么重要吗？我知道，我过得并不开心。被自己所谓的梦想欺骗了吧。家人和朋友是最重要的。家人，朋友。你关心他们，不是出于你自己的想象，是相互的体谅和理解。</li>
+<li>2016-10-28 追凶者也，讲了一件关于诚信的故事。学业，进展不顺利。</li>
+<li>2016-10-23 08级学长说：每个人的生活状态由他自己决定，心有多远，可以到达多远。转变。</li>
+<li>2016-10-21 校庆。xj老师说：IT行业工作者，正当好年华是总有健康问题。坐一个小时，该去喝杯茶，聊聊天。一直坐着不好，效率才是重要的。<br>HDU 母校， 生日快乐。</li>
+<li>2016-10-18 杭州 中国大学生程序设计大赛明日举行<br>谁A的题多呢?<br>选择决定命运 tree</li>
+<li>2016-10-17 没有进步，对代码没有天赋。更谈不上努力。在这片土地上有个永远视你为目标的人。wkc</li>
+<li>2016-10-16 同学从天津来，陪他逛杭州。周六阴雨，去了黄龙洞。AliSQL开源，中国企业巨头，开始回馈社会了。<br>初中班主任杨想平老师说：“为人一生不能懒。” 或许我 懒惰了…</li>
+<li>2016-10-09 网络的本质是数据结构与代码，底层是根基。</li>
+<li>2016-10-06 网络编程，编写最简单的及时社交软件，简单可靠。</li>
+<li>2016-10-01 软件工程 @邹欣 <a href="http://www.cnblogs.com/xinz/" target="_blank" rel="noopener">http://www.cnblogs.com/xinz/</a></li>
+<li>2016-09-28 国庆长假， 百有所思</li>
+<li>2016-09-25 西湖还是那么多人，一如既往拍着树上的松鼠。</li>
+<li>2016-09-21 困</li>
+<li>2016-09-20 难以理解得深刻。</li>
+<li>2016-09-19 what you like is what you dislike.</li>
+<li>2016-09-18 勇敢、自由</li>
+<li>2016-09-17 独立思考 &gt; 创意创新 &gt; 书本知识</li>
+<li>2016-09-16 间隔一个小时，看窗外，可以有效放松眼睛。每天要做的工作写在纸媒体上比手机好。</li>
+<li>2016-09-15 《Unix网络编程：套接字API》、 《进程间通信》，计算机网络。</li>
+<li>2016-09-14 系统编程是一件与底层联系紧密的事情。内存分配，接口管理，硬件设施管理等等，深入理解计算机底层的知识，对于编写高效程序具有重大意义</li>
+</ul>
+
+      </div>
+      
+      
+      
+    </div>
+    
+
+    
+    
+    
+
+
+          </div>
+          
+    
+  <div class="comments">
+    <div id="disqus_thread">
+      <noscript>Please enable JavaScript to view the comments powered by Disqus.</noscript>
+    </div>
+  </div>
+  
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          Table of Contents
+        </li>
+        <li class="sidebar-nav-overview">
+          Overview
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#2020"><span class="nav-number">1.</span> <span class="nav-text">2020</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#2019"><span class="nav-number">2.</span> <span class="nav-text">2019</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#2018"><span class="nav-number">3.</span> <span class="nav-text">2018</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#2017"><span class="nav-number">4.</span> <span class="nav-text">2017</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#2016"><span class="nav-number">5.</span> <span class="nav-text">2016</span></a></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">Sun Yiming</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">14</span>
+          <span class="site-state-item-name">posts</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">3</span>
+        <span class="site-state-item-name">categories</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">10</span>
+        <span class="site-state-item-name">tags</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+        <a href="https://github.com/guguant" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;guguant" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://www.instagram.com/sea_andyz/" title="Instagram → https:&#x2F;&#x2F;www.instagram.com&#x2F;sea_andyz&#x2F;" rel="noopener" target="_blank"><i class="fab fa-instagram fa-fw"></i>Instagram</a>
+      </span>
+  </div>
+
+
+  <div class="links-of-blogroll motion-element">
+    <div class="links-of-blogroll-title"><i class="fa fa-link fa-fw"></i>
+      Friends
+    </div>
+    <ul class="links-of-blogroll-list">
+        <li class="links-of-blogroll-item">
+          <a href="https://guguant.github.io/" title="https:&#x2F;&#x2F;guguant.github.io&#x2F;">飞鸟与鱼</a>
+        </li>
+    </ul>
+  </div>
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2020</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Sun Yiming</span>
+</div>
+  <div class="powered-by">Powered by <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://pisces.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Pisces</a>
+  </div>
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/pisces.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+<script>
+  function loadCount() {
+    var d = document, s = d.createElement('script');
+    s.src = 'https://gotum.disqus.com/count.js';
+    s.id = 'dsq-count-scr';
+    (d.head || d.body).appendChild(s);
+  }
+  // defer loading until the whole page loading is completed
+  window.addEventListener('load', loadCount, false);
+</script>
+<script>
+  var disqus_config = function() {
+    this.page.url = "https://guguant.github.io/story/index.html";
+    this.page.identifier = "story/index.html";
+    this.page.title = "story";
+    };
+  NexT.utils.loadComments(document.querySelector('#disqus_thread'), () => {
+    if (window.DISQUS) {
+      DISQUS.reset({
+        reload: true,
+        config: disqus_config
+      });
+    } else {
+      var d = document, s = d.createElement('script');
+      s.src = 'https://gotum.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', '' + +new Date());
+      (d.head || d.body).appendChild(s);
+    }
+  });
+</script>
+
+</body>
+</html>

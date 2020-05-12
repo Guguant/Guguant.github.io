@@ -63,29 +63,6 @@
       </tags>
   </entry>
   <entry>
-    <title>512-生如夏花</title>
-    <url>/2020/05/13/512-life-like-summer-flowers/</url>
-    <content><![CDATA[<p>有一个夏天，我们失去生命，歌颂生命，敬畏生命</p>
-<a id="more"></a>
-
-<p><img src="705px-2008_Sichuan_earthquake_map_no_labels.svg.png" alt="sichuan"></p>
-<p>多年后，我们失去生命</p>
-<p>我们，记得逝去生命的名字吗？我们真的记得吗？</p>
-<p>多年后的多年后…</p>
-<video src='freedom.mp4' type='video/mp4' controls='controls'  width='100%' height='100%'>
-</video>
-
-<p>这是一个多美丽又遗憾的世界</p>
-<p>我们就这样抱着笑着还流着泪</p>
-]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-      <tags>
-        <tag>life</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>漫漫长夜</title>
     <url>/2019/12/14/cheer-night/</url>
     <content><![CDATA[<p>时间：2019年12月14日<br>地点：杭州 黄龙体育馆</p>
@@ -158,6 +135,29 @@
       </tags>
   </entry>
   <entry>
+    <title>512-生如夏花</title>
+    <url>/2020/05/13/512-life-like-summer-flowers/</url>
+    <content><![CDATA[<p>有一个夏天，我们失去生命，歌颂生命，敬畏生命</p>
+<a id="more"></a>
+
+<p><img src="705px-2008_Sichuan_earthquake_map_no_labels.svg.png" alt="sichuan"></p>
+<p>多年后，我们失去生命</p>
+<p>我们，记得逝去生命的名字吗？我们真的记得吗？</p>
+<p>多年后的多年后…</p>
+<video src='freedom.mp4' type='video/mp4' controls='controls'  width='100%' height='100%'>
+</video>
+
+<p>这是一个多美丽又遗憾的世界</p>
+<p>我们就这样抱着笑着还流着泪</p>
+]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>life</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Mrs.wmh, Happy New Year 2020!</title>
     <url>/2019/12/31/happy-new-year-2020/</url>
     <content><![CDATA[<p>hi, Soleil 同学</p>
@@ -196,17 +196,15 @@
 <li>little star, piano</li>
 </ul>
 <audio controls>
-  <source src="/music/20190707_203558_MissLi_Little_Star.m4a" type="audio/mpeg">
+  <source src="/music/20190707_203558_MissLi_Little_Star.m4a" type="audio/mp4">
 </audio>
 
 <ul>
 <li>slient night, guitar</li>
 </ul>
 <audio controls>
-  <source src="/music/Slient_Night_ by_AndyZ.m4a" type="audio/mpeg">
-</audio>
-
-]]></content>
+  <source src="/music/Slient_Night_ by_AndyZ.m4a" type="audio/mp4">
+</audio>]]></content>
       <categories>
         <category>生活</category>
       </categories>

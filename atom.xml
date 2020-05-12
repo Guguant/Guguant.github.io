@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://guguant.github.io/"/>
-  <updated>2020-05-12T23:08:23.978Z</updated>
+  <updated>2020-05-12T23:11:35.484Z</updated>
   <id>https://guguant.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://guguant.github.io/2020/05/13/from-graphics-to-linux/"/>
     <id>https://guguant.github.io/2020/05/13/from-graphics-to-linux/</id>
     <published>2020-05-12T22:38:59.000Z</published>
-    <updated>2020-05-12T23:08:23.978Z</updated>
+    <updated>2020-05-12T23:11:35.484Z</updated>
     
     <content type="html"><![CDATA[<p>今天天气很赞。</p><p>下午，我将以初学者的姿态投入到Linux内核领域。谈起工作的方向，这是我第二次主动切换方向。第一次主动切换方向，是在2020年1月份，申请去搞图形学。这一次，是从图形学方向切换到Linux内核方向。</p><p>图形学是我非常感兴趣的领域。图形学能够直观地表达代码的所做的工作，如绘制一条优美的曲线，着色等。但是，如果想要在图形学领域小有成就，需要具备深厚且扎实的数学功底，而基础数学理论，是我所不擅长的。 所以，经过一个月的思想斗争，最终，我决定，去从事另一个感兴趣的领域，Linux内核。</p><p>当真正接触到Linux内核的实际开发工作后，我会喜欢其工作内容吗？我不知道。</p><p>昨天，现在的Leader WJZ非常nice的给了我一些建议：交付项目和技术项目相比，更有节奏，但是也更加关注时间节点；有可能你从事了Linux内核开发之后，也会很受挫，但是，你一定要积极地面对。</p><p>写在方向变换前夕。遇到困难，咬咬牙，跺跺脚，也就坚持下去了。</p><p>“玩”起来吧！Rock Linux!</p>]]></content>
     

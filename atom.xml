@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>音乐小分子</title>
+  <title>Yiming | 音樂小分子</title>
   
   <subtitle>飞鸟与鱼</subtitle>
   <link href="/atom.xml" rel="self"/>
@@ -159,9 +159,9 @@
       <category term="生活" scheme="https://guguant.github.io/categories/%E7%94%9F%E6%B4%BB/"/>
     
     
-      <category term="life" scheme="https://guguant.github.io/tags/life/"/>
-    
       <category term="music" scheme="https://guguant.github.io/tags/music/"/>
+    
+      <category term="life" scheme="https://guguant.github.io/tags/life/"/>
     
   </entry>
   
